@@ -26,6 +26,17 @@
             <p class="site-subtitle">Fantasy & Special Effects Artistry</p>
         </header>
         
+        <!-- Hidden Navigation Bar -->
+        <nav class="hidden-nav">
+            <a href="#" class="nav-link" data-spread="1">Cover</a>
+            <a href="#" class="nav-link" data-spread="2">Contents & About</a>
+            <a href="#" class="nav-link" data-spread="3">Philosophy & Portfolio</a>
+            <a href="#" class="nav-link" data-spread="4">Gallery</a>
+            <a href="#" class="nav-link" data-spread="5">Transformations</a>
+            <a href="#" class="nav-link" data-spread="6">Commissions</a>
+            <a href="#" class="nav-link" data-spread="7">Contact</a>
+        </nav>
+        
         <!-- The Book itself -->
         <div id="magazine">
             <!-- COVER (Single page - Page 1) -->
@@ -60,37 +71,46 @@
                             <div class="toc-item" data-spread="3">
                                 <span class="toc-number">I</span>
                                 <div class="toc-content">
-                                    <h4>The Artisan's Tale</h4>
-                                    <p>An introduction to the craft and philosophy</p>
+                                    <h4>The Artisan's Philosophy</h4>
+                                    <p>An introduction to the craft and vision</p>
                                 </div>
-                                <span class="toc-page">Pages 4-5</span>
+                                <span class="toc-page">Pages 3-4</span>
                             </div>
                             
                             <div class="toc-item" data-spread="4">
                                 <span class="toc-number">II</span>
                                 <div class="toc-content">
-                                    <h4>Gallery of Wonders</h4>
+                                    <h4>Portfolio Gallery</h4>
                                     <p>A visual chronicle of transformations</p>
                                 </div>
-                                <span class="toc-page">Pages 6-7</span>
+                                <span class="toc-page">Pages 5-6</span>
                             </div>
                             
                             <div class="toc-item" data-spread="5">
                                 <span class="toc-number">III</span>
                                 <div class="toc-content">
-                                    <h4>Commission Grimoire</h4>
-                                    <p>How to commission your own transformation</p>
+                                    <h4>More Transformations</h4>
+                                    <p>Continuing the grimoire of wonders</p>
                                 </div>
-                                <span class="toc-page">Pages 8-9</span>
+                                <span class="toc-page">Pages 7-8</span>
                             </div>
                             
                             <div class="toc-item" data-spread="6">
                                 <span class="toc-number">IV</span>
                                 <div class="toc-content">
+                                    <h4>Commission Process</h4>
+                                    <p>How to commission your transformation</p>
+                                </div>
+                                <span class="toc-page">Pages 9-10</span>
+                            </div>
+                            
+                            <div class="toc-item" data-spread="7">
+                                <span class="toc-number">V</span>
+                                <div class="toc-content">
                                     <h4>Contact & Inquiry</h4>
                                     <p>Send a raven to begin your journey</p>
                                 </div>
-                                <span class="toc-page">Pages 10-11</span>
+                                <span class="toc-page">Pages 11-12</span>
                             </div>
                         </div>
                         
@@ -136,7 +156,8 @@
             
             <!-- SPREAD 3: About Continued -->
             <div class="page-spread" id="spread-3">
-                <!-- Left Page: About Continued -->
+                <!-- Spread 3: Philosophy (Left) + Featured Work (Right) -->
+                <!-- Left Page: About -->
                 <div class="page left-page">
                     <div class="page-content">
                         <h3 class="page-heading"><i class="fas fa-scroll"></i> The Artisan's Philosophy</h3>
@@ -155,83 +176,116 @@
                     </div>
                 </div>
                 
-                <!-- Right Page: Portfolio Intro -->
+                <!-- Right Page: Featured Work -->
                 <div class="page right-page">
                     <div class="page-content">
-                        <h3 class="page-heading"><i class="fas fa-images"></i> Gallery of Wonders</h3>
-                        <p class="page-intro">A visual grimoire of completed transformations and ongoing enchantments.</p>
+                        <h3 class="page-heading"><i class="fas fa-images"></i> Featured Work</h3>
+                        <p class="page-intro">A visual grimoire of completed transformations.</p>
                         
-                        <div class="portfolio-grid">
-                            <div class="portfolio-item" data-image="1">
-                                <div class="item-image"></div>
-                                <h5>The Faerie Queen</h5>
-                                <p>Ethereal makeup with crystalline prosthetics</p>
-                            </div>
-                            <div class="portfolio-item" data-image="2">
-                                <div class="item-image"></div>
-                                <h5>Dragon Kin</h5>
-                                <p>Full-scale prosthetic transformation</p>
+                        <div class="portfolio-grid single">
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/syd%20demon.JPG" alt="Demon" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Demon</h5>
+                                <p>Dark fantasy prosthetic and makeup study</p>
                             </div>
                         </div>
                         
                         <div class="portfolio-note">
-                            <i class="fas fa-camera"></i> Click on any image to view enchantment details
+                            <i class="fas fa-camera"></i> Click on any image to view details
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- SPREAD 4: Portfolio -->
+            <!-- SPREAD 4: Portfolio (Mermaid & Siren + Body Galaxy & Corset) -->
             <div class="page-spread" id="spread-4">
-                <!-- Left Page: Portfolio -->
+                <!-- Left Page: Mermaid & Siren -->
                 <div class="page left-page">
                     <div class="page-content">
-                        <h3 class="page-heading"><i class="fas fa-images"></i> Gallery of Wonders</h3>
-                        <p class="page-intro">More transformations showcasing range and versatility.</p>
-                        
                         <div class="portfolio-grid">
-                            <div class="portfolio-item" data-image="3">
-                                <div class="item-image"></div>
-                                <h5>Forest Nymph</h5>
-                                <p>Organic body painting & floral elements</p>
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/syd%20mermaid.JPG" alt="Mermaid" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Mermaid</h5>
+                                <p>Iridescent scales and aquatic styling</p>
                             </div>
-                            <div class="portfolio-item" data-image="4">
-                                <div class="item-image"></div>
-                                <h5>Steampunk Alchemist</h5>
-                                <p>Mechanical prosthetics & metallic finishes</p>
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/syd%20siren.jpeg" alt="Siren" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Siren</h5>
+                                <p>Underwater-inspired makeup and prosthetics</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Right Page: Portfolio Continued -->
+                <!-- Right Page: Body Galaxy & Corset -->
                 <div class="page right-page">
                     <div class="page-content">
-                        <h3 class="page-heading"><i class="fas fa-images"></i> More Transformations</h3>
-                        <p class="page-intro">Additional works in fantasy artistry.</p>
-                        
                         <div class="portfolio-grid">
-                            <div class="portfolio-item" data-image="5">
-                                <div class="item-image"></div>
-                                <h5>Celestial Being</h5>
-                                <p>Glowing effects and cosmic patterns</p>
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/syd%20body%20galaxy.JPG" alt="Body Galaxy" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Body Galaxy</h5>
+                                <p>Cosmic body painting and starfield textures</p>
                             </div>
-                            <div class="portfolio-item" data-image="6">
-                                <div class="item-image"></div>
-                                <h5>Underwater Siren</h5>
-                                <p>Iridescent scales and aquatic elements</p>
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/syd%20corset.JPG" alt="Corset" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Corset</h5>
+                                <p>Theatrical styling with structured costume elements</p>
                             </div>
-                        </div>
-                        
-                        <div class="portfolio-note">
-                            <i class="fas fa-palette"></i> Each piece is custom designed and handcrafted
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- SPREAD 5: Commission -->
+            <!-- SPREAD 5: Portfolio (Orc & Facial Trauma) + Closing Message -->
             <div class="page-spread" id="spread-5">
+                <!-- Left Page: Orc & Facial Trauma -->
+                <div class="page left-page">
+                    <div class="page-content">
+                        <div class="portfolio-grid">
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/syd%20orc.JPG" alt="Orc" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Orc</h5>
+                                <p>Prosthetic fantasy character design</p>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="item-image has-image">
+                                    <img src="assets/images/portfolio/facial%20trauma.JPG" alt="Facial Trauma" style="width:100%; height:100%; object-fit:cover; display:block;">
+                                </div>
+                                <h5>Facial Trauma</h5>
+                                <p>Special effects makeup for film and theater</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Page: Closing Message -->
+                <div class="page right-page">
+                    <div class="page-content">
+                        <div style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px;">
+                            <div class="cover-ornament" style="font-size: 4rem; margin-bottom: 30px;">✦</div>
+                            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold-primary); margin-bottom: 20px;">Your Story Awaits</h3>
+                            <p style="font-size: 1.1rem; color: var(--text-light); line-height: 1.8; max-width: 80%;">Every transformation begins with a vision. Let's bring your fantasy to life with artistry, passion, and meticulous craftsmanship.</p>
+                            <div class="ornamental-divider" style="margin: 30px 0; font-size: 1.5rem;">❖</div>
+                            <p style="color: var(--gold-primary); font-size: 0.95rem; letter-spacing: 1px;">Ready for your transformation?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SPREAD 6: Commission -->
+            <div class="page-spread" id="spread-6">
                 <!-- Left Page: Commission -->
                 <div class="page left-page">
                     <div class="page-content">
@@ -295,8 +349,8 @@
                 </div>
             </div>
             
-            <!-- SPREAD 6: Contact -->
-            <div class="page-spread" id="spread-6">
+            <!-- SPREAD 7: Contact -->
+            <div class="page-spread" id="spread-7">
                 <!-- Left Page: Contact Form -->
                 <div class="page left-page">
                     <div class="page-content">
@@ -405,11 +459,23 @@
                             </div>
                             
                             <div class="social-links">
-                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
-                                <a href="#" class="social-link"><i class="fab fa-tiktok"></i> Tiktok</a>
+                                <a href="https://www.instagram.com/silvereffectsbeauty/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="https://www.tiktok.com/@silvereffectsbeauty" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i> Tiktok</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lightbox Modal for Portfolio Images -->
+        <div id="image-modal" class="image-modal">
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <img id="modal-image" src="" alt="Portfolio Item">
+                <div class="modal-info">
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
                 </div>
             </div>
         </div>
@@ -435,8 +501,9 @@
             <button class="nav-dot" data-spread="2" title="Contents & About"></button>
             <button class="nav-dot" data-spread="3" title="About & Portfolio"></button>
             <button class="nav-dot" data-spread="4" title="Portfolio"></button>
-            <button class="nav-dot" data-spread="5" title="Commissions"></button>
-            <button class="nav-dot" data-spread="6" title="Contact"></button>
+            <button class="nav-dot" data-spread="5" title="More Portfolio"></button>
+            <button class="nav-dot" data-spread="6" title="Commissions"></button>
+            <button class="nav-dot" data-spread="7" title="Contact"></button>
         </div>
     </div>
 

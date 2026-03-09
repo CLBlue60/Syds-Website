@@ -42,7 +42,7 @@ $(document).ready(function() {
         }
     });
     
-    // Make nav links clickable
+  
     $('.nav-link').click(function(e) {
         e.preventDefault();
         const targetSpread = $(this).attr('data-spread');
@@ -170,10 +170,38 @@ $(document).ready(function() {
             }
             $('#prev-page').prop('disabled', currentMobilePage === 1);
             $('#next-page').prop('disabled', currentMobilePage === 13);
+
+            // change prev button text on cover (page 1)
+            if (currentMobilePage === 1) {
+                $('#prev-page').html('<i class="fas fa-chevron-left"></i> Beginning');
+            } else {
+                $('#prev-page').html('<i class="fas fa-chevron-left"></i> Previous');
+            }
+
+            // change next button text only on page 13 (last mobile page)
+            if (currentMobilePage === 13) {
+                $('#next-page').html('The End');
+            } else {
+                $('#next-page').html('Next <i class="fas fa-chevron-right"></i>');
+            }
         } else {
             displayText = pageConfig[currentSpread];
             $('#prev-page').prop('disabled', currentSpread === 1);
             $('#next-page').prop('disabled', currentSpread === totalSpreads);
+
+            // change prev button text on cover (spread 1)
+            if (currentSpread === 1) {
+                $('#prev-page').html('<i class="fas fa-chevron-left"></i> Beginning');
+            } else {
+                $('#prev-page').html('<i class="fas fa-chevron-left"></i> Previous');
+            }
+
+            // change next button text on last spread (pages 11-12)
+            if (currentSpread === totalSpreads) {
+                $('#next-page').html('The End');
+            } else {
+                $('#next-page').html('Next <i class="fas fa-chevron-right"></i>');
+            }
         }
         
         $('#current-pages').text(displayText);

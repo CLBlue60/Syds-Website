@@ -1378,6 +1378,7 @@ body {
         padding: 30px 25px;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
+        padding-bottom: 100px; /* ensure content isn't hidden behind controls */
     }
     
     #cover {

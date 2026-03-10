@@ -744,7 +744,7 @@ body {
 .skills-list li {
     font-size: 1.3rem;
     padding: 10px 0;
-    padding-left: 30px;
+    padding-left: 50px;
     position: relative;
     color: var(--text-dark);
 }
@@ -762,6 +762,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    justify-items: center;
 }
 
 .portfolio-item {
@@ -772,6 +773,8 @@ body {
     transition: all 0.3s ease;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+    width: 100%;
 }
 
 .portfolio-item:hover {
@@ -1604,6 +1607,7 @@ body {
     
     .page-content {
         padding: 35px 40px;
+        padding-bottom: 80px;
         font-size: 1rem;
     }
     
@@ -1687,7 +1691,9 @@ body {
     
     .skills-section {
         margin-top: 20px;
+        margin-bottom: 50px;
         padding: 15px;
+        clear: both;
     }
     
     .skills-section h4 {
@@ -1698,6 +1704,7 @@ body {
     .skills-list li {
         font-size: 1.1rem;
         padding: 8px 0;
+        padding-left: 40px;
     }
 }
 

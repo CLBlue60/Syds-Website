@@ -590,7 +590,7 @@ body {
 
 .item-image {
     width: 100%;
-    height: 260px;
+    height: 350px;
     background: linear-gradient(135deg, var(--olive-light), var(--olive-dark));
     border-radius: 6px;
     margin-bottom: 15px;
@@ -627,7 +627,7 @@ body {
 }
 
 .portfolio-grid.single .item-image {
-    height: 350px;
+    height: 450px;
 }
 
 .portfolio-item h5 {
@@ -1241,11 +1241,11 @@ body {
     }
     
     .item-image {
-        height: 240px;
+        height: 320px;
     }
     
     .portfolio-grid.single .item-image {
-        height: 320px;
+        height: 410px;
     }
 }
 
@@ -1263,11 +1263,11 @@ body {
     }
     
     .item-image {
-        height: 220px;
+        height: 300px;
     }
     
     .portfolio-grid.single .item-image {
-        height: 300px;
+        height: 400px;
     }
 }
 
@@ -1290,11 +1290,11 @@ body {
     }
     
     .item-image {
-        height: 200px;
+        height: 280px;
     }
     
     .portfolio-grid.single .item-image {
-        height: 280px;
+        height: 380px;
     }
 }
 
@@ -1435,11 +1435,11 @@ body {
     }
     
     .item-image {
-        height: 160px;
+        height: 220px;
     }
     
     .portfolio-grid.single .item-image {
-        height: 220px;
+        height: 300px;
     }
     
     .portfolio-item h5 {
@@ -1579,11 +1579,11 @@ body {
     }
     
     .item-image {
-        height: 140px;
+        height: 180px;
     }
     
     .portfolio-grid.single .item-image {
-        height: 200px;
+        height: 260px;
     }
     
     .book-controls {
